@@ -6,7 +6,7 @@ var status = document.getElementById("status");
 
 
 if ('serviceWorker' in navigator) {
-    navigator.serviceWorker.register('/demo/public/service-worker.js')
+    navigator.serviceWorker.register('/push-api-talk/demo/public/service-worker.js')
         .then(initialiseState);
 } else {
     status.textContent = "Le navigateur ne prend pas en charge Service workers, et ne peut donc utiliser les notifications Push";
