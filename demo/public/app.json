@@ -1,0 +1,7 @@
+{
+  "name": "Démonstration de l’API Push",
+  "short_name": "Démo Push",
+  "start_url": "/demo/index.html",
+  "display": "standalone",
+  "gcm_sender_id": "188969457259"
+}
